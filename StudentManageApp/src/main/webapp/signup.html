@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management App - Sign Up</title>
+    <link rel="stylesheet" href="#">
+</head>
+<body>
+    <div class="signup-container">
+        <!-- Logo -->
+        <div class="logo">
+            <h2>Student Management App</h2>
+        </div>
+
+        <!-- Signup Form -->
+        <div class="signup-form">
+            <h3>Create a new account</h3>
+            <form action="signup" method="POST">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <span class="toggle-password">👁</span>
+                </div>
+
+                <button type="submit" class="signup-btn">Sign Up</button>
+            </form>
+
+            <div class="login-option">
+                <p>Already have an account? <a href="dashboard.html">Login</a></p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+        </footer>
+    </div>
+</body>
+</html>

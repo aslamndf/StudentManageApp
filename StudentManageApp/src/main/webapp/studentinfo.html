@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Details</title>
+</head>
+<body>
+<div >
+ <table >
+ <form action="studentinfo" method="POST"> 
+   <tr> 
+    <td> <label for="name"> Name </label> </td>
+    <td><input type="text" id="Sname" name ="name" /> </td> 
+   </tr>
+   <tr> 
+    <td><label for="DOB"> DOB </label> </td> 
+    <td><input type="date" id="DOB" name="dob"/> </td> 
+   </tr>  
+   <tr> 
+    <td><label for="PhoneNo"> PhoneNo </label> </td> 
+    <td><input type="telnum" id="PhoneNo" name = "phone" /> </td> 
+   </tr> 
+   <tr> 
+    <td><label for="email"> Email </label> </td> 
+    <td><input type="email" id="email" name ="email" /> </td> 
+   </tr> 
+
+
+   <tr> 
+    <td><label for="address"> Address </label> </td> 
+    <td><input type="text" id="address" name= "address"/> </td> 
+   </tr> 
+   <tr> 
+    <td><label for="deptment"> Deptment </label> </td> 
+    <td><input type="text" id="deptment" name ="dept" /> </td> 
+   </tr> 
+   <tr>
+    <td><label for="passout_year">Passout Year:</label></td>
+       <td><input type="number" id="passout_year" name="passout" min="1900" max="2099" required></td>
+      </tr>
+   <tr><td><button type="submit">Submit</button></td></tr>
+  </form> 
+  
+ </table> 
+</body>
+</div>
+
+</html>
